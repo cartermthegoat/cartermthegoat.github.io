@@ -1,0 +1,13 @@
+:root {
+    --color-1: #F1E9E9;
+    --color-2: #982598;
+    --color-3: #E491C9;
+    --color-4: #15173D;
+}
+
+body {
+    background-color: var(--color-1); 
+    color: var(--color-2); 
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif
+}
