@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
 :root {
     --color-1: #F1E9E9;
     --color-2: #982598;
@@ -9,5 +10,9 @@ body {
     background-color: var(--color-1); 
     color: var(--color-2); 
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Jersey 25'
+
+}
+h1 {
+    color:var(--color-4);
 }
