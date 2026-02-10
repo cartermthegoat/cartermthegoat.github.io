@@ -10,9 +10,20 @@ body {
     background-color: var(--color-1); 
     color: var(--color-2); 
     font-weight: bold;
-    font-family: 'Jersey 25'
+    font-family: 'Jersey 25';
+    
+}
 
+
+
+#projects1 {
+    text-align: center;
+    color:#15173D
 }
-h1 {
-    color:var(--color-4);
+
+.back-color {
+    background-color: #15173D;
 }
+
+
+
