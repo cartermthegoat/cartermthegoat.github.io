@@ -27,3 +27,21 @@ body {
 
 
 
+nav {
+    background-color:var(--color-3);
+    text-align: center;
+    
+    
+}
+nav a{
+    color:#982598;
+    text-decoration: none;
+    padding: 16px;
+    display: inline-block;
+    
+    
+}
+nav a:hover {
+    background-color:#ab61ab;
+    border-bottom:#982598 solid 2px;
+}
