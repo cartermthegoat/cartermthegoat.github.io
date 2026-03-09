@@ -1,18 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
     <meta name="keywords" content="full-stack development, steam, student, innovative, carter mathlin, mecps">
-    <meta name="description" content="Hello I am Carter Mathlin, A STEAM and MECPS student, I am an innovative and hardworking student">
+    <meta name="description"
+        content="Hello I am Carter Mathlin, A STEAM and MECPS student, I am an innovative and hardworking student">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
- <h1 id="projects1">Contact Page</h1>  
- <nav> <a href="projects.html">Projects</a>
-    <a href="about-me.html">About Me</a>
-    <a href="contacts.html">Contacts</a>
-    <a href="index.html">Home</a> </nav>
+    <h1 id="projects1">Contact Page</h1>
+    <nav> <a href="projects.html">Projects</a>
+        <a href="about-me.html">About Me</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="index.html">Home</a>
+    </nav>
+    
+    <section> 
+    <h2>Contact Me:</h2>
+    <form
+    action="https://form-to-email.steamc.workers.dev/"
+    method="post">
+        <label> Name:</label>
+        <input type="text" placeholder="Name" name="full_name" />
+        <br>
+        
+        <label> Email:</label>
+        <input type="email" placeholder="cooldude@example.com" name="email_address">
+        <br>
+
+
+        <label> </label>
+       
+    </form>
+</section>
 </body>
+
 </html>
