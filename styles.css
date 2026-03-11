@@ -28,7 +28,7 @@ body {
 
 
 nav {
-    text-align:right;
+    text-align:center;
     position:sticky;
     background-color:var(--color-3);
     
@@ -49,4 +49,31 @@ nav a:hover {
     
     background-color:#ab61ab;
     border-bottom:#982598 solid 2px;
+}
+@media screen and (max-width: 480px) {
+    /* Mobile Devices */
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Tablet Devices */
+}
+
+
+@media screen and (max-width: 769px) {
+    /* Laptop/Desktop Devices */
+}
+summary{
+    color: var(--color-2);
+    background-color: var(--color-4);
+    text-align: center;
+}
+details{
+    color: #ab61ab;
+    
+    
+}
+h6{
+    padding:12px;
+    padding-left: 50px;
+    background-color: var(--color-3);
 }
