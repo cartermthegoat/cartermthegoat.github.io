@@ -59,7 +59,7 @@ nav a:hover {
 }
 
 
-@media screen and (max-width: 769px) {
+@media screen and (min-width: 769px) {
     /* Laptop/Desktop Devices */
 }
 summary{
